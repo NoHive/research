@@ -1,0 +1,77 @@
+Microsoft Windows [Version 10.0.16299.125]
+(c) 2017 Microsoft Corporation. Alle Rechte vorbehalten.
+
+C:\Users\bju>cd C:\entwicklung\angular_projekte\angular_material
+
+C:\entwicklung\angular_projekte\angular_material>code .
+
+C:\entwicklung\angular_projekte\angular_material>cd C:\entwicklung\git_hub_repositories\research
+
+C:\entwicklung\git_hub_repositories\research>ng new ng5-material
+  create ng5-material/e2e/app.e2e-spec.ts (294 bytes)
+  create ng5-material/e2e/app.po.ts (208 bytes)
+  create ng5-material/e2e/tsconfig.e2e.json (235 bytes)
+  create ng5-material/karma.conf.js (923 bytes)
+  create ng5-material/package.json (1317 bytes)
+  create ng5-material/protractor.conf.js (722 bytes)
+  create ng5-material/README.md (1027 bytes)
+  create ng5-material/tsconfig.json (363 bytes)
+  create ng5-material/tslint.json (2985 bytes)
+  create ng5-material/.angular-cli.json (1247 bytes)
+  create ng5-material/.editorconfig (245 bytes)
+  create ng5-material/.gitignore (516 bytes)
+  create ng5-material/src/assets/.gitkeep (0 bytes)
+  create ng5-material/src/environments/environment.prod.ts (51 bytes)
+  create ng5-material/src/environments/environment.ts (387 bytes)
+  create ng5-material/src/favicon.ico (5430 bytes)
+  create ng5-material/src/index.html (298 bytes)
+  create ng5-material/src/main.ts (370 bytes)
+  create ng5-material/src/polyfills.ts (2667 bytes)
+  create ng5-material/src/styles.css (80 bytes)
+  create ng5-material/src/test.ts (1085 bytes)
+  create ng5-material/src/tsconfig.app.json (211 bytes)
+  create ng5-material/src/tsconfig.spec.json (304 bytes)
+  create ng5-material/src/typings.d.ts (104 bytes)
+  create ng5-material/src/app/app.module.ts (316 bytes)
+  create ng5-material/src/app/app.component.html (1139 bytes)
+  create ng5-material/src/app/app.component.spec.ts (986 bytes)
+  create ng5-material/src/app/app.component.ts (207 bytes)
+  create ng5-material/src/app/app.component.css (0 bytes)
+Installing packages for tooling via npm.
+Installed packages for tooling via npm.
+Directory is already under version control. Skipping initialization of git.
+Project 'ng5-material' successfully created.
+
+C:\entwicklung\git_hub_repositories\research>cd ng5-material
+
+C:\entwicklung\git_hub_repositories\research\ng5-material>npm install @angular/material @angular/cdk --save
+npm WARN codelyzer@3.2.2 requires a peer of @angular/compiler@^2.3.1 || >=4.0.0-beta <5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN codelyzer@3.2.2 requires a peer of @angular/core@^2.3.1 || >=4.0.0-beta <5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/material@5.0.2
++ @angular/cdk@5.0.2
+added 117 packages in 17.833s
+
+C:\entwicklung\git_hub_repositories\research\ng5-material>npm install @angular/animations --save
+npm WARN codelyzer@3.2.2 requires a peer of @angular/compiler@^2.3.1 || >=4.0.0-beta <5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN codelyzer@3.2.2 requires a peer of @angular/core@^2.3.1 || >=4.0.0-beta <5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/animations@5.1.2
+added 115 packages and updated 1 package in 13.593s
+
+C:\entwicklung\git_hub_repositories\research\ng5-material>npm install hammerjs --save
+npm WARN codelyzer@3.2.2 requires a peer of @angular/compiler@^2.3.1 || >=4.0.0-beta <5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN codelyzer@3.2.2 requires a peer of @angular/core@^2.3.1 || >=4.0.0-beta <5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ hammerjs@2.0.8
+added 116 packages in 13.167s
+
+C:\entwicklung\git_hub_repositories\research\ng5-material>start
+
+C:\entwicklung\git_hub_repositories\research\ng5-material>
