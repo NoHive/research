@@ -1,0 +1,58 @@
+
+c:\entwicklung\git_hub_repositories\research>ng new angular5 --style=scss --routing
+  create angular5/e2e/app.e2e-spec.ts (290 bytes)
+  create angular5/e2e/app.po.ts (208 bytes)
+  create angular5/e2e/tsconfig.e2e.json (235 bytes)
+  create angular5/karma.conf.js (923 bytes)
+  create angular5/package.json (1313 bytes)
+  create angular5/protractor.conf.js (722 bytes)
+  create angular5/README.md (1024 bytes)
+  create angular5/tsconfig.json (363 bytes)
+  create angular5/tslint.json (2985 bytes)
+  create angular5/.angular-cli.json (1245 bytes)
+  create angular5/.editorconfig (245 bytes)
+  create angular5/.gitignore (516 bytes)
+  create angular5/src/assets/.gitkeep (0 bytes)
+  create angular5/src/environments/environment.prod.ts (51 bytes)
+  create angular5/src/environments/environment.ts (387 bytes)
+  create angular5/src/favicon.ico (5430 bytes)
+  create angular5/src/index.html (295 bytes)
+  create angular5/src/main.ts (370 bytes)
+  create angular5/src/polyfills.ts (2667 bytes)
+  create angular5/src/styles.scss (80 bytes)
+  create angular5/src/test.ts (1085 bytes)
+  create angular5/src/tsconfig.app.json (211 bytes)
+  create angular5/src/tsconfig.spec.json (304 bytes)
+  create angular5/src/typings.d.ts (104 bytes)
+  create angular5/src/app/app-routing.module.ts (245 bytes)
+  create angular5/src/app/app.module.ts (395 bytes)
+  create angular5/src/app/app.component.html (1171 bytes)
+  create angular5/src/app/app.component.spec.ts (1103 bytes)
+  create angular5/src/app/app.component.ts (208 bytes)
+  create angular5/src/app/app.component.scss (0 bytes)
+Installing packages for tooling via npm.
+Installed packages for tooling via npm.
+Directory is already under version control. Skipping initialization of git.
+Project 'angular5' successfully created.
+
+c:\entwicklung\git_hub_repositories\research>cd angular5
+
+c:\entwicklung\git_hub_repositories\research\angular5>code .
+
+c:\entwicklung\git_hub_repositories\research\angular5>start
+
+c:\entwicklung\git_hub_repositories\research\angular5>ng generate component home
+  create src/app/home/home.component.html (23 bytes)
+  create src/app/home/home.component.spec.ts (614 bytes)
+  create src/app/home/home.component.ts (262 bytes)
+  create src/app/home/home.component.scss (0 bytes)
+  update src/app/app.module.ts (469 bytes)
+
+c:\entwicklung\git_hub_repositories\research\angular5>ng g c about
+  create src/app/about/about.component.html (24 bytes)
+  create src/app/about/about.component.spec.ts (621 bytes)
+  create src/app/about/about.component.ts (266 bytes)
+  create src/app/about/about.component.scss (0 bytes)
+  update src/app/app.module.ts (547 bytes)
+
+c:\entwicklung\git_hub_repositories\research\angular5>
